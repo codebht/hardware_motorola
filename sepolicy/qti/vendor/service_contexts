@@ -1,5 +1,4 @@
 # Camera
-com.motorola.hardware.camera.postprocess.IPostProcService/default    u:object_r:hal_camera_service:s0
 motorola.hardware.camera.imgtuner.aidl.IImageTuning/default          u:object_r:hal_camera_service:s0
 
 # Fingerprint
