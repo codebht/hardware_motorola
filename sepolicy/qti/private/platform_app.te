@@ -1,1 +1,2 @@
+allow platform_app cgroup:dir search;
 hal_client_domain(platform_app, hal_ifaa)

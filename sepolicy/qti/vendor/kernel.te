@@ -1,3 +1,5 @@
+dontaudit kernel self:capability net_bind_service;
+
 allow kernel block_device:dir search;
 
 allow kernel kernel:capability kill;

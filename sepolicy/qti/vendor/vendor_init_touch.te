@@ -1,3 +1,4 @@
+allow vendor_init_touch sysfs:file getattr;
 type vendor_init_touch, domain;
 type vendor_init_touch_exec, exec_type, vendor_file_type, file_type;
 init_daemon_domain(vendor_init_touch)

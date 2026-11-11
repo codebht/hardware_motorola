@@ -1,3 +1,5 @@
+dontaudit hal_camera_default zygote_config_prop:file r_file_perms;
+
 binder_call(hal_camera_default, system_server)
 
 # STM Prox Sensor

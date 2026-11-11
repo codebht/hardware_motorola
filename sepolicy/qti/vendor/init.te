@@ -1,3 +1,5 @@
+allow init system_file:file mounton;
+
 # Super modem mounting
 allow fsg_file self:filesystem associate;
 allow init fsg_file:dir mounton;

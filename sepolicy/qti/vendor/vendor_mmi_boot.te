@@ -1,3 +1,6 @@
+allow vendor_mmi_boot kmsg_device:chr_file w_file_perms;
+allow vendor_mmi_boot proc_cmdline:file r_file_perms;
+
 type vendor_mmi_boot, domain;
 type vendor_mmi_boot_exec, exec_type, vendor_file_type, file_type;
 init_daemon_domain(vendor_mmi_boot)
